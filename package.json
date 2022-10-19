@@ -1,0 +1,22 @@
+{
+  "name": "aptos-multi-coin-send-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "send2": "node --loader ts-node/esm scripts/send2.ts"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "cross-fetch": "^3.1.5",
+    "js-sha3": "^0.8.0",
+    "tweetnacl": "^1.0.3",
+    "aptos": "^1.3.14",
+    "fmt": "^2.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
